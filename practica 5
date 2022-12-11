@@ -1,3 +1,6 @@
+#Calcula el límite indicado de la lista adjunta
+
+
 #1
 n = var("n")
 f(n) = ( n^3 + 2*n - 1) / (5*n^3 + n*2 - 2*n + 1)
@@ -29,6 +32,8 @@ f(n) = ((n^3 - 2*n) / (n^3 + 3*(n^2) - 2*n - 1))^n
 lim(f(n), n = oo)
 
 
+#Calcula la suma de la serie de la lista adjunta.
+
 
 #6
 n = var("n")
@@ -56,6 +61,8 @@ n, x = var("n, x")
 f(n) = (-1)^n * 4^n * x^(2*n)
 sum(f(n), x, 0, oo)
 
+
+#Realiza el cálculo indicado en la lista adjunta
 
 
 #10
